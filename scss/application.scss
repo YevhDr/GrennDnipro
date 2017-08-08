@@ -27,6 +27,8 @@ h1 {
   text-align: left;
   color: white;
   line-height: 1.5em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 
 
   @media #{$brk-large} {
@@ -35,9 +37,10 @@ h1 {
       }
 
   @media #{$brk-spnarrow} {
-    font-size: 5.0vw;
+    margin-top: 4vw;
+    font-size: 6.0vw;
     width: 90%;
-    margin-right: 5%;
+    padding-top: 6vw;
 
   }
 }
@@ -96,7 +99,7 @@ h5 {
 
   @media #{$brk-spnarrow} {
 
-    font-size: 2vw;
+    font-size: 3vw;
   }
 }
 
@@ -134,7 +137,7 @@ p {
 }
 
 .header {
-  background-image: url("../img/titul.jpg");
+  background-image: url("../img/titul2.jpg");
   background-attachment: fixed;
   -moz-background-size: cover;
   position: relative;
@@ -164,7 +167,7 @@ p {
 
   @media #{$brk-spnarrow} {
     margin-left: 5%;
-    top: 12%;
+
   }
 
 
@@ -346,7 +349,17 @@ p.caption {
 
 .parallax{
   background-image: url("../img/DSC_0402.JPG");
-  min-height: 500px;
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.parallax2{
+  background-image: url("../img/obozrev.jpg");
+  min-height: 800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -356,4 +369,12 @@ p.caption {
 
 .first {
   margin-top: 40px;
+}
+
+.pidpys {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-style: italic;
+  text-align: right;
+  font-size:1.5em
 }

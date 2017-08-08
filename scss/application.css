@@ -324,16 +324,19 @@ body {
 h1 {
   text-align: left;
   color: white;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+  letter-spacing: 5px;
+  text-transform: uppercase; }
   @media (max-width: 1440px) {
     h1 {
       font-size: 3.0vw;
       padding-top: 2vw; } }
   @media (max-width: 767px) {
     h1 {
-      font-size: 5.0vw;
+      margin-top: 4vw;
+      font-size: 6.0vw;
       width: 90%;
-      margin-right: 5%; } }
+      padding-top: 6vw; } }
 
 h2 {
   text-align: left;
@@ -378,7 +381,7 @@ h5 {
       font-size: 1.0vw; } }
   @media (max-width: 767px) {
     h5 {
-      font-size: 2vw; } }
+      font-size: 3vw; } }
 
 h6 {
   font-size: 2vw;
@@ -408,7 +411,7 @@ h6 {
     margin-left: 5%; } }
 
 .header {
-  background-image: url("../img/titul.jpg");
+  background-image: url("../img/titul2.jpg");
   background-attachment: fixed;
   -moz-background-size: cover;
   position: relative;
@@ -429,8 +432,7 @@ h6 {
       margin-left: 15%; } }
   @media (max-width: 767px) {
     .header-text {
-      margin-left: 5%;
-      top: 12%; } }
+      margin-left: 5%; } }
 
 @media (max-width: 767px) {
   #header-text {
@@ -558,7 +560,16 @@ p.caption {
 
 .parallax {
   background-image: url("../img/DSC_0402.JPG");
-  min-height: 500px;
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0; }
+
+.parallax2 {
+  background-image: url("../img/obozrev.jpg");
+  min-height: 800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -567,5 +578,12 @@ p.caption {
 
 .first {
   margin-top: 40px; }
+
+.pidpys {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-style: italic;
+  text-align: right;
+  font-size: 1.5em; }
 
 /*# sourceMappingURL=application.css.map */
