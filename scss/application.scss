@@ -343,11 +343,6 @@ p {
   margin-left: 3%;
 }
 
-.scroll {
-  background-image: url("../img/DSC_0402.JPG");
-  background-attachment: fixed;
-  width: 100%;
-}
 
 .whiteback {
   background-color: white;
@@ -401,6 +396,7 @@ p.caption {
 .pidpys span{
   background-color: #1d2c01;
 }
+
 .subscript {
   @media #{$brk-large} {
     margin-left: 20%;
