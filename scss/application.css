@@ -434,6 +434,9 @@ h6 {
   position: relative;
   margin-right: 10%;
   padding-top: 5%; }
+  @media (max-width: 2570px) {
+    .header-text {
+      margin-left: 15%; } }
   @media (max-width: 1440px) {
     .header-text {
       margin-left: 15%; } }
@@ -562,7 +565,8 @@ p.caption {
 
 .parallax {
   background-image: url("../img/DSC_0403.JPG");
-  min-height: 500px;
+  height: 100%;
+  width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -571,7 +575,8 @@ p.caption {
 
 .parallax2 {
   background-image: url("../img/obozrev.jpg");
-  min-height: 800px;
+  height: 100%;
+  width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
