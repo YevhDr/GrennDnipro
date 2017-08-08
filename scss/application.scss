@@ -21,6 +21,7 @@
 body {
   height: 100vh;
   padding-bottom: 1vw;
+
 }
 
 h1 {
@@ -49,15 +50,21 @@ h2 {
   text-align: left;
   color: white;
   font-weight: normal;
-  padding-bottom: 2vw;
+  padding-bottom: 1.8vw;
 
   @media #{$brk-large} {
-    font-size: 1.9vw;
+    font-size: 1.6vw;
+    line-height: 1.5em;
   }
 
   @media #{$brk-spnarrow} {
 
-     font-size: 4vw;
+     font-size: 2.8vw;
+  }
+
+  @media #{$brk-iphone} {
+
+    font-size: 4vw;
   }
 
 
@@ -86,6 +93,10 @@ h3 {
     margin-left: 5%;
   }
 
+}
+
+h4{
+  color: white;
 }
 
 h5 {
@@ -323,6 +334,8 @@ p {
 
 .read-more {
   margin-bottom: 15px;
+
+
 }
 
 .foto {
@@ -348,8 +361,8 @@ p.caption {
 }
 
 .parallax{
-  background-image: url("../img/DSC_0402.JPG");
-  min-height: 800px;
+  background-image: url("../img/DSC_0403.JPG");
+  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -371,10 +384,23 @@ p.caption {
   margin-top: 40px;
 }
 
+.last {
+  margin-bottom: 30px;
+}
+
 .pidpys {
   margin-top: 5px;
   margin-bottom: 20px;
   font-style: italic;
   text-align: right;
   font-size:1.5em
+}
+
+.subscript {
+  @media #{$brk-large} {
+    margin-left: 20%
+  }
+  @media #{$brk-spnarrow} {
+    margin-left: 5%;
+  }
 }
