@@ -592,7 +592,7 @@ p.caption {
   font-size: 1.5em;
   color: white; }
 
-.pidpys span {
+p.pidpys span {
   background-color: #1d2c01; }
 
 @media (max-width: 1440px) {
