@@ -412,7 +412,6 @@ p {
 
 .foto {
   width: 100%;
-
 }
 
 .map {
@@ -488,4 +487,8 @@ p.pidpys span{
   @media #{$brk-spnarrow} {
     margin-left: 5%;
   }
+}
+
+.row {
+  width: 100%;
 }
