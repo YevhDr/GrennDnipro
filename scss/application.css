@@ -417,7 +417,7 @@ h6 {
   padding-top: 5%; }
   @media (max-width: 2570px) {
     .header-text {
-      margin-left: 25%;
+      margin-left: 20%;
       width: 60%; } }
   @media (max-width: 1440px) {
     .header-text {
