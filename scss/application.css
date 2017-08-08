@@ -420,7 +420,7 @@ h6 {
 .header {
   background-image: url("../img/titul2.jpg");
   background-attachment: fixed;
-  -moz-background-size: cover;
+  background-size: cover;
   position: relative;
   width: 100%; }
 
