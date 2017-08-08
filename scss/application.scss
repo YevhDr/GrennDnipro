@@ -28,23 +28,7 @@ h1 {
   text-align: left;
   color: white;
   line-height: 1.5em;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-
-
-
-  @media #{$brk-large} {
-    font-size: 3.0vw;
-    padding-top: 2vw;
-      }
-
-  @media #{$brk-spnarrow} {
-    margin-top: 4vw;
-    font-size: 6.0vw;
-    width: 90%;
-    padding-top: 6vw;
-
-  }
+  font-size: 4em;
 }
 
 h2 {
@@ -52,21 +36,23 @@ h2 {
   color: white;
   font-weight: normal;
   padding-bottom: 1.8vw;
+  font-size: 1.9em;
 
-  @media #{$brk-large} {
-    font-size: 1.6vw;
-    line-height: 1.5em;
-  }
 
-  @media #{$brk-spnarrow} {
-
-     font-size: 2.8vw;
-  }
-
-  @media #{$brk-iphone} {
-
-    font-size: 4.5vw;
-  }
+  //@media #{$brk-large} {
+  //  font-size: 1.6vw;
+  //  line-height: 1.5em;
+  //}
+  //
+  //@media #{$brk-spnarrow} {
+  //
+  //   font-size: 2.8vw;
+  //}
+  //
+  //@media #{$brk-iphone} {
+  //
+  //  font-size: 4.5vw;
+  //}
 
 
 }
@@ -102,21 +88,12 @@ h4{
 
 h5 {
   color: white;
-  line-height: 1.5em;
   padding-bottom: 5vw;
-
-  @media #{$brk-large} {
-    font-size: 1.0vw;
-  }
-
-  @media #{$brk-spnarrow} {
-
-    font-size: 3vw;
-  }
+  font-size: 0.8em;
 }
 
 h6 {
-  font-size: 2vw;
+  font-size: 2em;
   color: grey;
   line-height: 2em;
 
@@ -148,15 +125,21 @@ p {
 
 }
 
-.header {
+.desk_header {
+  background-image: url("../img/titul2.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.mob_header {
   background-image: url("../img/titul2.jpg");
   background-attachment: fixed;
   background-size: cover;
   position: relative;
   width: 100%;
-
 }
-
 
 
 .overlay {
@@ -169,23 +152,28 @@ p {
 
 .header-text {
   position: relative;
-
   margin-right: 10%;
   padding-top: 5%;
 
   @media #{$brk-xlarge} {
-    margin-left: 15%
+    margin-left: 25%;
+    width: 60%;
   }
 
   @media #{$brk-large} {
     margin-left: 15%;
+    width: 60%;
+  }
+
+  @media #{$brk-narrow} {
+    margin-left: 10%;
+    width: 90%;
   }
 
   @media #{$brk-spnarrow} {
     margin-left: 5%;
-
+    width: 90%;
   }
-
 
 }
 
@@ -315,7 +303,7 @@ p {
 
 
 
-@media only screen and (min-width:500px) {
+@media only screen and (min-width:768px) {
   .mobile {
     display:none !important;
     padding-top: 0;
@@ -327,7 +315,7 @@ p {
 }
 
 //small screen sizes
-@media only screen and (max-width: 499px) {
+@media only screen and (max-width: 767px) {
   .mobile {
     display:block !important;
   }
@@ -344,8 +332,14 @@ p {
 }
 
 .foto {
-  width: 95%;
-  margin-left: 3%;
+  width: 100%;
+
+}
+
+.map {
+  width: 80%;
+  margin-left: 10%;
+
 }
 
 
@@ -395,7 +389,7 @@ p.caption {
   margin-bottom: 20px;
   font-style: italic;
   text-align: right;
-  font-size:1.2em;
+  font-size:1.5em;
   color: #1d2c01;
 
 }
@@ -404,9 +398,14 @@ p.pidpys span{
 }
 
 .subscript {
+  @media #{$brk-xlarge} {
+    margin-left: 20%;
+  }
+
   @media #{$brk-large} {
     margin-left: 20%;
   }
+
   @media #{$brk-spnarrow} {
     margin-left: 5%;
   }
